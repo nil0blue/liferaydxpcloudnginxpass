@@ -9,7 +9,8 @@ And to avoid committing to the repository implement the credentials  as a Secret
 Steps:
 
 1. Use the htpasswd tool locally to generate the contents of the .htpasswd file:
-	htpasswd -nb <user> <password>
+	
+	htpasswd -nb [user] [password]
 	
 2. Create a Secret in the DXP Cloud DEV environment:
 	Name: lcp-nginx-basic-auth

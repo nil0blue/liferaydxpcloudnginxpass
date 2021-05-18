@@ -34,4 +34,6 @@ Steps:
 
 5. After the deployment to dev is completed, verify that the changepwd.sh script was executed in the nginx logs.
 
+	The changepwd.sh script replaces the environment varialbe in the .htpasswd file with the value of the Secret.
+
 6. The dev environment will now be accessible using the new credentials.

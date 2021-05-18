@@ -13,14 +13,21 @@ Steps:
 	htpasswd -nb [user] [password]
 	
 2. Create a Secret in the DXP Cloud DEV environment:
+	
 	Name: lcp-nginx-basic-auth
+	
 	Value: the output from Step 1
+	
 	Used in:
-		Service: Webserver
-		Key: LCP_NGINX_BASIC_AUTH
+	
+	Service: Webserver
+	
+	Key: LCP_NGINX_BASIC_AUTH
+	
 	For documentation about how to create Secrets, visit: https://learn.liferay.com/dxp-cloud/latest/en/infrastructure-and-operations/security/managing-secure-environment-variables-with-secrets.html	
 
 3. Copy the webserver folder from this repository to your DXP Cloud repository.
+	
 	This will add a .htpasswd file and a changepwd shell script to your nginx deployment.
 	
 4. Commit and push the changes.

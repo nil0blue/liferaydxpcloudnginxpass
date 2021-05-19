@@ -1,5 +1,5 @@
 # liferaydxpcloudnginxpass
-A script to secure the Liferay DXP Cloud dev environment basic authentication
+A deploy script to modify the basic auth credentials for Liferay DXP Cloud Dev environment
 
 
 The dev environment portal access in Liferay DXP Cloud is protected by default credentials which are shared in the provisioning email. 

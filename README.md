@@ -1,4 +1,4 @@
-# liferaydxpcloudnginxpass
+# Liferay DXP Cloud Basic Auth
 A deploy script to modify the basic auth credentials for Liferay DXP Cloud Dev environment
 
 

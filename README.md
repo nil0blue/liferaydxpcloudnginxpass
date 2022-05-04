@@ -9,8 +9,9 @@ And to avoid committing to the repository implement the credentials  as a Secret
 Steps:
 
 1. Use the htpasswd tool locally to generate the contents of the .htpasswd file:
-	
-	htpasswd -nb [user] [password]
+	apt-get update
+	apt-get install apache2-utils
+	htpasswd -nb [user] [password] > .htpasswd
 	
 2. Create a Secret in the DXP Cloud DEV environment:
 	

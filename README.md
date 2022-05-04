@@ -10,6 +10,8 @@ Steps:
 
 1. Use the htpasswd tool locally to generate the contents of the .htpasswd file:
 	
+	cd webserver/configs/dev/public
+	
 	apt-get update
 	
 	apt-get install apache2-utils
